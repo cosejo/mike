@@ -47,10 +47,6 @@ Table of Content:
   margin-right: 8.33333333%;
 }
 
-/*.svg {
-  filter: invert(.5) sephia(1);
-}*/
-
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
 ul {
@@ -94,14 +90,6 @@ h5,
 h6 {
   margin: 0px;
   padding: 0px;
-}
-
-h1{
-  color: #E48F28;
-}
-
-.header_top h3 {
-  color: #2761d8;
 }
 
 .display_table {
@@ -152,7 +140,6 @@ p {
 .form-control:focus {
   -webkit-box-shadow: none;
   box-shadow: none;
-  border-color: #E48F28;
 }
 
 iframe {
@@ -646,7 +633,7 @@ iframe {
   content: "";
   position: absolute;
   z-index: -1;
-  background: #E48F28;
+  background: #2761d8;
   height: 250px;
   width: 300px;
   border-radius: 50%;
@@ -782,7 +769,7 @@ iframe {
 .submit_blue {
   display: inline-block;
   background: transparent;
-  border: 1px solid #E48F28;
+  border: 1px solid #2761d8;
   line-height: 50px;
   width: 165px;
   height: 48px;
@@ -814,7 +801,7 @@ iframe {
   content: "";
   position: absolute;
   z-index: -1;
-  background: #E48F28;
+  background: #2761d8;
   height: 280px;
   width: 330px;
   border-radius: 50%;
@@ -830,8 +817,7 @@ iframe {
 }
 
 .submit_blue:hover, .submit_blue:focus {
-  color: #E48F28;
-  border-color: #E48F28;
+  color: #2761d8;
 }
 
 .submit_blue:hover:before, .submit_blue:focus:before {
@@ -992,7 +978,7 @@ iframe {
   text-transform: uppercase;
   font-weight: bold;
   font-size: 24px;
-  color: #E48F28;
+  color: #2761d8;
   font-family: "Roboto Condensed", sans-serif;
   padding: 15px 0px 22px 0px;
 }
@@ -1321,7 +1307,7 @@ iframe {
 
 .left_feature_inner_text .media .media-body h4 {
   font-size: 16px;
-  color: #E48F28;
+  color: #2f2f30;
   font-family: "Roboto", sans-serif;
   font-weight: bold;
   padding-bottom: 10px;
@@ -3176,7 +3162,7 @@ iframe {
 }
 
 .contact_form_area2 .contact_details_inner {
-  background: #E48F28;
+  background: #2761d8;
   min-height: 313px;
   padding: 40px;
 }
@@ -3462,7 +3448,7 @@ iframe {
   font-size: 30px;
   font-family: "Roboto", sans-serif;
   font-weight: bold;
-  color: #2761d8;
+  color: #59595b;
   text-transform: uppercase;
   padding-bottom: 48px;
 }

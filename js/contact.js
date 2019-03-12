@@ -60,9 +60,9 @@ $(function() {
             message: "required",
         },
         messages: {
-            name: "Your first name please",
-            email: "We need your email address",
-            message: "Please enter your message",
+            name: "Ingresá tu nombre acá",
+            email: "Ingresá tu dirección de correo",
+            message: "Ingresá tu mensaje",
         },
         submitHandler: function(form) {
 
@@ -78,7 +78,7 @@ $(function() {
                 noredirect = true;
             }
 
-            $jscontactresult.html('<p class="help-block text-center">Please wait...</p>');
+            $jscontactresult.html('<p class="help-block text-center">Enviando...</p>');
 
             /* 
             FETCH SUCCESS / ERROR MSG FROM HTML DATA-ATTR
@@ -115,7 +115,7 @@ $(function() {
                     $jscontactbtn.attr("disabled", false);
                 },
                 error: function(d) {
-                    $jscontactresult.fadeIn('slow').html('<div class="mt-3 mb-0 alert alert-danger text-center"> Cannot access Server</div>').delay(3000).fadeOut('slow');
+                    $jscontactresult.fadeIn('slow').html('<div class="mt-3 mb-0 alert alert-danger text-center">¡Disculpa! Tenemos problemas con la conexió al Servidor. Por favor intentá de nuevo</div>').delay(3000).fadeOut('slow');
                     $jscontactbtn.attr("disabled", false);
                     if (window.console) {
                         console.log('Ajax Error: ' + d.statusText);

